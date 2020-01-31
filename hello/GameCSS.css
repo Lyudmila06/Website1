@@ -1,0 +1,69 @@
+body{
+    background-image: url("img/game_back.jpg");
+}
+
+
+h1 {
+    text-align: center;
+	color: gold;
+    font-size: 60px;
+    line-height: 2;
+	margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.game{
+    width: 800px;
+    height:150px;
+    display: flex;
+    flex-wrap: wrap;
+    margin:0 auto;
+}
+
+
+.user{
+    display: block;
+    width: 200px; height: 200px;
+    border: 5px solid red;
+    
+	margin-left: 1200px;
+	background-image: url("img/Kratos.jpg");
+    
+}
+
+.index {
+    display: inline-block;
+    width: 100px; height: 130px;
+    border: 4px solid gold;
+    
+    margin:10px;
+	margin-bottom: 3px;
+	background: rgb(255, 255, 255);
+    
+}
+
+.index.black{
+    background: black;
+}
+
+h2 {
+    text-align: right;
+	color: #eeeeee;
+    font-size: 30px;
+    line-height: 2;
+	margin-top: 5px;
+	margin-right: 160px;
+    margin-bottom: 3px;
+}
+
+
+
+button{
+    padding: 12px 60px;
+    margin-left: 600px;
+	margin-top: 5px;
+    background-color: #222222;
+	border: 4px solid gold;
+	color: gold;
+    font-size: 50px;
+}

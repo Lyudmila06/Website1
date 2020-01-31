@@ -1,0 +1,198 @@
+
+
+
+body{
+    background-image: url("img/background.jpg");
+}
+
+header{
+  padding: 5px 30px 10px 10px;
+}
+
+header .navbar {
+  background: #222;
+  border: 0;
+  margin-bottom: 0;
+}
+
+header .navbar-logo{
+  padding: 0;
+  margin-left: 10px;
+}
+
+
+#header .navbar-nav li a:hover,
+#header .navbar-nav li a:focus{
+
+  color: gold;
+}
+
+
+header .navbar-right >li a {
+  color: #000;
+  font-size: 12px;
+  padding: 20px;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+
+
+
+
+
+ul.sub-menu {
+  background: #222222;
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  
+}
+
+#header .navbar-nav li ul.sub-menu li a {
+  color: #777777;
+  padding: 5px 0;
+  font-size: 13px;
+  display: block;
+  text-transform: uppercase;
+}
+
+
+
+ul.sub-menu li ul.sub-sub-menu {
+  display: none;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#header .navbar-nav li ul.sub-menu li ul.sub-sub-menu li a {
+  color: #818285;
+  padding: 5px 0;
+  font-size: 13px;
+  display: block;
+  text-transform: capitalize;
+}
+
+
+
+#header .navbar-nav li ul.sub-menu li ul.sub-sub-menu li a:hover,
+#header .navbar-nav li ul.sub-menu li ul.sub-sub-menu li a:focus{
+  background-color: #f1ffd1;
+  color: gold;
+}
+
+#header .navbar-nav li ul.sub-menu li a:hover,
+#header .navbar-nav li ul.sub-menu li a:focus{
+  background: #f1fff1;
+  color: gold;
+}
+
+
+
+/**/
+
+
+
+
+
+
+
+	  .nav.navbar-nav > li:hover > ul.sub-menu{
+    display: block;
+    
+  }
+
+  ul.sub-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background: #fff;
+    padding: 10px 0;
+    width: 240px;
+    box-shadow: none;
+    display: none;
+    z-index: 999;
+    border: 1px solid #dab074;
+  }
+
+  #header .navbar-nav li ul.sub-menu li a {
+    padding-left: 20px;
+  }
+
+	
+  .nav.navbar-nav > li:hover > ul.sub-menu li:hover > ul.sub-sub-menu{
+    display: block;
+    
+  }
+
+  ul.sub-menu li ul.sub-sub-menu {
+    position: absolute;
+	top: 10px;
+    right: 230px;
+    background: #fff;
+    padding: 10px 0;
+    width: 240px;
+    box-shadow: none;
+    display: none;
+    z-index: 999;
+    border: 1px solid #dab074;
+  }
+
+  #header .navbar-nav li ul.sub-menu li ul.sub-sub-menu li a {
+    padding-left: 20px;
+  }
+
+ h1{
+    font-size: 25px;
+  }
+
+  #header .navbar-nav.navbar-right li {
+    padding: 0;
+  }
+
+  #header .navbar-nav.navbar-right >li a {
+    padding: 20px 10px;
+
+}
+
+
+
+#home_page {
+  background-color: #eeeed1;
+  position: relative;
+  margin: 10px;
+}
+
+#home_page .main {
+  position: relative;
+  height: 550px;
+}
+
+#home_page .text{
+  position: absolute;
+  top: 50px;
+  left: 100px;
+  width: 550px;
+}
+
+
+
+#home_page .turtle {
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
